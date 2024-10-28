@@ -1,0 +1,31 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+h1{
+	font-family: Times New Roman;
+	text-shadow: 1px 2px 2px gray;
+	font-size: 40px;
+}
+
+#tabuleiro{
+	display: grid;
+	width: 500px;
+	grid-template-columns: repeat(5, 100px);
+	grid-template-rows: repeat(5, 100px);
+	border: 10px solid red;
+	border-bottom: 10px solid tomato;
+}
+.quadrado{
+	width: 100px;
+	border: 1px solid black;
+}
+.quadrado:nth-child(odd) {
+  background-color: black;
+}
+
+.quadrado:nth-child(even) {
+  background-color: lightgray;
+}
