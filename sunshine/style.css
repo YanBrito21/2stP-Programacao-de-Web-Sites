@@ -1,0 +1,29 @@
+body{
+	text-align: center;
+	margin: 10px;
+}
+.barra{
+	font-size: 18px;
+	color: #00bfff;
+	font-weight: bold;
+	display: flex;
+	align-content: row;
+	justify-content: space-around;
+}
+.ini:hover, .des:hover, .cat:hover, .com:hover{
+	border: 2px solid black;
+	border-color: #00bfff;
+	border-radius: 10px;
+	padding: 3px;
+}
+h1{
+	color: #00bfff;
+}
+footer{
+	text-align: center;
+	font-style: italic;
+	color: #00bfff;
+}
+.red{
+	color: red;
+}
